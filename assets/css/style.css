@@ -1,0 +1,15 @@
+
+.card {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 2%;
+    max-width: 900px !important;
+}
+
+h5 {
+    text-align: center;
+}
+
+.container {
+    margin-top : 5% !important;
+}
