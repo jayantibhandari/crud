@@ -14,11 +14,11 @@ include('partials/header.php');
 
             require('database/view.php');
 
-            if ($result->num_rows > 0) {
+      if ($result->num_rows > 0) {
 
-                while ($row = $result->fetch_assoc()) {
+        $row = $result->fetch_assoc()
 
-            ?>
+          ?>
 
         <div class="card-content">
          <ul>
@@ -33,9 +33,8 @@ include('partials/header.php');
           <a href="updateForm.php?id=<?php echo $row['id']; ?>">Edit</a>
           <a href="database/delete.php?id=<?php echo $row['id']; ?>">Delete</a>
         </div>
-        <?php 
-                }
-            }
+        <?php
+      }
         ?>
       </div>
     </div>

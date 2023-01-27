@@ -20,7 +20,7 @@ include('partials/header.php');
         <th>Phone</th>
         <th>Email</th>
         <th>Action</th>
-        <th>Details</th>
+        <!-- <th>Details</th> -->
     </tr>
     </thead>
 
@@ -49,7 +49,7 @@ include('partials/header.php');
 
             <td><a class="waves-effect waves-light btn #ffc107 amber" href="updateForm.php?id=<?php echo $row['id']; ?>"><i class="material-icons left">mode_edit</i>Edit</a> &nbsp; <a class="waves-effect waves-light btn #ff1744 red accent-3" href="database/delete.php?id=<?php echo $row['id']; ?>"><i class="material-icons left">clear</i>Delete</a></td>
            
-            <td><a class="waves-effect waves-light btn #6200ea deep-purple accent-4" href="cardView.php?id=<?php echo $row['id']; ?>"><i class="material-icons left">apps</i>Show</a></td>
+            <!-- <td><a class="waves-effect waves-light btn #6200ea deep-purple accent-4" href="cardView.php?id=<?php echo $row['id']; ?>"><i class="material-icons left">apps</i>Show</a></td> -->
 
          </tr>
          <?php       
